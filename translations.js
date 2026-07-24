@@ -11,7 +11,7 @@ const translations = {
         },
         hero: {
             hello: "Halo,",
-            welcome: "Selamat datang di portofolio saya! Saya berspesialisasi dalam Quality Assurance Tester, Software Engineer, Analisis Data, Pengembangan Web, dan Desain UI/UX, memadukan kreativitas, presisi, dan semangat untuk menciptakan pengalaman yang unik dan berdampak. Mari berkolaborasi untuk menciptakan sesuatu yang luar biasa!",
+            welcome: "Selamat datang di portofolio saya! Saya berspesialisasi dalam Software Quality Assurance, Software Engineer, Analisis Data, Pengembangan Web, dan Desain UI/UX, memadukan kreativitas, presisi, dan semangat untuk menciptakan pengalaman yang unik dan berdampak. Mari berkolaborasi untuk menciptakan sesuatu yang luar biasa!",
             email: "Email",
             downloadCv: "Unduh CV"
         },
