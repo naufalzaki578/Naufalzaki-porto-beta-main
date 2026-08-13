@@ -219,11 +219,11 @@ const translations = {
         },
         typewriter: [
             "Naufal Zaki!",
-            "Software Quality Assurance!",
-            "Web Developer!",
-            "Machine Learning Enthusiast!",
+            "Front End Developer!",
+            "Back End Developer!",
+            "Software Engineer!",
             "UI/UX Designer!",
-            "Data Scientist!",
+            "Data Analyst!",
             "Laravel Developer!",
             "Database Administrator!"
         ]
