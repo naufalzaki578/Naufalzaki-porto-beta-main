@@ -54,11 +54,11 @@ document.addEventListener('DOMContentLoaded', function () {
             ? window.translations[window.currentLang || 'id'].typewriter
             : [
                 "Naufal Zaki Aulia!",
-                "Software Quality Assurance!",
-                "Web Developer!",
+                "Front End Developer!",
+                "Back End Developer!",
                 "Machine Learning Enthusiast!",
                 "UI/UX Designer!",
-                "Data Scientist!",
+                "Data Analyst!",
                 "Laravel Developer!",
                 "Database Administrator!"
             ];
