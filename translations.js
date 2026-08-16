@@ -150,6 +150,8 @@ const translations = {
             project5Desc: "Analyzing public sentiment on education costs using NLP techniques.",
             project6Title: "Production Reporting System PT. DSI",
             project6Desc: "Web-based information system to monitor, record, and report daily production output at PT. DSI in real-time."
+            project7Title: "Travel Buddy AI",
+            project7Desc: "Chatbot AI untuk membantu pengguna merencanakan perjalanan, mencari rekomendasi destinasi, dan mendapatkan informasi wisata."
         },
         education: {
             title: "Education",
