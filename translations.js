@@ -35,8 +35,8 @@ const translations = {
             project5Title: "Marginalia (NLP)",
             project5Desc: "Marginalia aplikasi berbasis web Natural Language Processing untuk melakukan analisis teks, ekstraksi informasi, dan pengolahan dokumen .",
             project6Title: "Kedai Kopi Kenangan Kita",
-            project6Desc: "Web Kedai Kopi Kenangan Kita yang elegan dan simple."
-            project7Title: "Travel Buddy AI",
+            project6Desc: "Web Kedai Kopi Kenangan Kita yang elegan dan simple.",
+            project7Title: "Travel Buddy AI.",
             project7Desc: "Chatbot AI untuk membantu pengguna merencanakan perjalanan, mencari rekomendasi destinasi, dan mendapatkan informasi wisata."
         },
         education: {
@@ -151,8 +151,8 @@ const translations = {
             project5Title: "Sentiment Analysis",
             project5Desc: "Analyzing public sentiment on education costs using NLP techniques.",
             project6Title: "Production Reporting System PT. DSI",
-            project6Desc: "Web-based information system to monitor, record, and report daily production output at PT. DSI in real-time."
-            project7Title: "Travel Buddy AI",
+            project6Desc: "Web-based information system to monitor, record, and report daily production output at PT. DSI in real-time.",
+            project7Title: "Travel Buddy AI.",
             project7Desc: "AI chatbot that helps users plan trips, find destination recommendations, and get travel information."
         },
         education: {
