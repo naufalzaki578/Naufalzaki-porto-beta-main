@@ -272,58 +272,65 @@
 
 		<script>
 			const portfolioItems = [
-				{
-					img: "img/kenangan1.png",
-					titleKey: "portfolio.project6Title",
-					descKey: "portfolio.project6Desc",
-					link: " https://naufalzaki578.github.io/kedai-kopi-kenangan-kita/",
-					tagKey: "portfolio.tagWebDev"
-				},
-				{
-					img: "img/porto_diskominfo.png",
-					titleKey: "portfolio.project1Title",
-					descKey: "portfolio.project1Desc",
-					link: "https://github.com/naufalzaki578/diskominfo-tegal",
-					tagKey: "portfolio.tagWebDev"
-				},
-				{
-					img: "img/WebKominfo.png",
-					titleKey: "portfolio.project2Title",
-					descKey: "portfolio.project2Desc",
-					link: "https://www.figma.com/design/m8KK3SdDNePZy38hNmPYGM/WEB-KOMINFO?node-id=0-1&t=OwxVDdcVplIwmkwh-1",
-					tagKey: "portfolio.tagUIUX"
-				},
-				{
-					img: "img/SakuBijak.png",
-					titleKey: "portfolio.project3Title",
-					descKey: "portfolio.project3Desc",
-					link: " https://naufalzaki578.github.io/SakuBijak-new-main/",
-					tagKey: "portfolio.tagBackend"
-				},
-				{
-					img: "img/devtoolbox.png",
-					titleKey: "portfolio.project4Title",
-					descKey: "portfolio.project4Desc",
-					link: "https://github.com/naufalzaki578/Devtoolsbox",
-					tagKey: "portfolio.tagDataScience"
-				},
-				{
-					img: "img/Marginalia.png",
-					titleKey: "portfolio.project5Title",
-					descKey: "portfolio.project5Desc",
-					link: "https://naufalzaki578.github.io/Marginalia-nlp-main/",
-					tagKey: "portfolio.tagML"
-				},
-			];
+	{
+		img: "img/kenangan1.png",
+		titleKey: "portfolio.project6Title",
+		descKey: "portfolio.project6Desc",
+		link: "https://naufalzaki578.github.io/kedai-kopi-kenangan-kita/",
+		tagKey: "portfolio.tagWebDev"
+	},
+	{
+		img: "img/porto_diskominfo.png",
+		titleKey: "portfolio.project1Title",
+		descKey: "portfolio.project1Desc",
+		link: "https://github.com/naufalzaki578/diskominfo-tegal",
+		tagKey: "portfolio.tagWebDev"
+	},
+	{
+		img: "img/WebKominfo.png",
+		titleKey: "portfolio.project2Title",
+		descKey: "portfolio.project2Desc",
+		link: "https://www.figma.com/design/m8KK3SdDNePZy38hNmPYGM/WEB-KOMINFO?node-id=0-1&t=OwxVDdcVplIwmkwh-1",
+		tagKey: "portfolio.tagUIUX"
+	},
+	{
+		img: "img/SakuBijak.png",
+		titleKey: "portfolio.project3Title",
+		descKey: "portfolio.project3Desc",
+		link: "https://naufalzaki578.github.io/SakuBijak-new-main/",
+		tagKey: "portfolio.tagBackend"
+	},
+	{
+		img: "img/devtoolbox.png",
+		titleKey: "portfolio.project4Title",
+		descKey: "portfolio.project4Desc",
+		link: "https://github.com/naufalzaki578/Devtoolsbox",
+		tagKey: "portfolio.tagDataScience"
+	},
+	{
+		img: "img/Marginalia.png",
+		titleKey: "portfolio.project5Title",
+		descKey: "portfolio.project5Desc",
+		link: "https://naufalzaki578.github.io/Marginalia-nlp-main/",
+		tagKey: "portfolio.tagML"
+	},
+	{
+		img: "img/travelbuddy.png",
+		titleKey: "portfolio.project7Title",
+		descKey: "portfolio.project7Desc",
+		link: "https://travel-buddy-f75wqy1iq-naufal17.vercel.app/",
+		tagKey: "portfolio.tagAI"
+	}
+];
 
-			const itemsPerPage = 3;
-			let currentPage = 1;
+const itemsPerPage = 3;
+let currentPage = 1;
 
-			function renderPortfolio(page) {
-				const start = (page - 1) * itemsPerPage;
-				const end = start + itemsPerPage;
-				const container = document.getElementById("portfolio-container");
-				container.innerHTML = "";
+function renderPortfolio(page) {
+	const start = (page - 1) * itemsPerPage;
+	const end = start + itemsPerPage;
+	const container = document.getElementById("portfolio-container");
+	container.innerHTML = "";
 
 				// Safely resolve translate function
 				const translate = (typeof t === 'function') ? t : (k) => k;
