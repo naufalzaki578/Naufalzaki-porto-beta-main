@@ -16,29 +16,36 @@ const translations = {
             downloadCv: "Unduh CV"
         },
         portfolio: {
-            title: "Portofolio Saya",
-            subtitle: "Koleksi pilihan karya terbaik saya di bidang teknologi, desain, dan sains data, dibuat dengan cermat untuk memberikan dampak nyata.",
-            viewProject: "Lihat Projek",
-            tagWebDev: "Web Dev",
-            tagUIUX: "UI/UX",
-            tagBackend: "Backend",
-            tagDataScience: "Data Science",
-            tagML: "Machine Learning",
-            project1Title: "Laravel Platform",
-            project1Desc: "Web Pendaftaran Magang Diskominfo Kab. Tegal dengan manajemen dashboard lengkap.",
-            project2Title: "Mockup Website",
-            project2Desc: "Desain UI/UX modern dan elegan untuk Website Diskominfo Kab. Tegal.",
-            project3Title: "SakuBijak",
-            project3Desc: "Aplikasi mengelola pemasukan, pengeluaran, dan laporan keuangan secara efisien. Dibangun dengan React + Vite pada sisi frontend, Express.js.",
-            project4Title: "Asisten Developer",
-            project4Desc: "Aplikasi utilitas all-in-one 8 fitur esensial seperti JSON Formatter, Regex Tester, hingga QR Generator.",
-            project5Title: "Marginalia (NLP)",
-            project5Desc: "Marginalia aplikasi berbasis web Natural Language Processing untuk melakukan analisis teks, ekstraksi informasi, dan pengolahan dokumen .",
-            project6Title: "Kedai Kopi Kenangan Kita",
-            project6Desc: "Web Kedai Kopi Kenangan Kita yang elegan dan simple.",
-            project7Title: "Travel Buddy AI",
-            project7Desc: "Chatbot AI untuk membantu pengguna merencanakan perjalanan, mencari rekomendasi destinasi, dan mendapatkan informasi wisata."
-        },
+    title: "Portofolio Saya",
+    subtitle: "Koleksi pilihan karya terbaik saya di bidang teknologi, desain, dan sains data, dibuat dengan cermat untuk memberikan dampak nyata.",
+    viewProject: "Lihat Projek",
+    tagWebDev: "Web Dev",
+    tagUIUX: "UI/UX",
+    tagBackend: "Backend",
+    tagDataScience: "Data Science",
+    tagML: "Machine Learning",
+
+    project1Title: "Laravel Platform",
+    project1Desc: "Web Pendaftaran Magang Diskominfo Kab. Tegal dengan manajemen dashboard lengkap.",
+
+    project2Title: "Mockup Website",
+    project2Desc: "Desain UI/UX modern dan elegan untuk Website Diskominfo Kab. Tegal.",
+
+    project3Title: "SakuBijak",
+    project3Desc: "Aplikasi mengelola pemasukan, pengeluaran, dan laporan keuangan secara efisien. Dibangun dengan React + Vite pada sisi frontend dan Express.js pada sisi backend.",
+
+    project4Title: "Asisten Developer",
+    project4Desc: "Aplikasi utilitas all-in-one dengan 8 fitur esensial seperti JSON Formatter, Regex Tester, hingga QR Generator.",
+
+    project5Title: "Marginalia (NLP)",
+    project5Desc: "Aplikasi berbasis web Natural Language Processing untuk melakukan analisis teks, ekstraksi informasi, dan pengolahan dokumen.",
+
+    project6Title: "Kedai Kopi Kenangan Kita",
+    project6Desc: "Website Kedai Kopi Kenangan Kita yang elegan dan sederhana.",
+
+    project7Title: "Travel Buddy AI",
+    project7Desc: "Chatbot AI untuk membantu pengguna merencanakan perjalanan, mencari rekomendasi destinasi, dan mendapatkan informasi wisata."
+},
         education: {
             title: "Pendidikan",
             card1Degree: "S1 Teknik Informatika (2021 – 2026)",
@@ -132,29 +139,36 @@ const translations = {
             downloadCv: "Download CV"
         },
         portfolio: {
-            title: "My Portofolio",
-            subtitle: "A curated collection of my best work in technology, design, and data science, meticulously crafted for real-world impact.",
-            viewProject: "View Project",
-            tagWebDev: "Web Dev",
-            tagUIUX: "UI/UX",
-            tagBackend: "Backend",
-            tagDataScience: "Data Science",
-            tagML: "Machine Learning",
-            project1Title: "Laravel Platform",
-            project1Desc: "Web Pendaftaran Magang Diskominfo Kab. Tegal with full dashboard management.",
-            project2Title: "Mockup Website Diskominfo Kab. Tegal",
-            project2Desc: "Modern and sleek UI/UX design for a website.",
-            project3Title: "SakuBijak",
-            project3Desc: "Developed a full-stack personal finance management application.",
-            project4Title: "DevTools box",
-            project4Desc: "Explaining DevToolbox, an all-in-one with 8 essential features. Built using pure HTML, CSS, and JavaScript.",
-            project5Title: "Sentiment Analysis",
-            project5Desc: "Analyzing public sentiment on education costs using NLP techniques.",
-            project6Title: "Production Reporting System PT. DSI",
-            project6Desc: "Web-based information system to monitor, record, and report daily production output at PT. DSI in real-time.",
-            project7Title: "Travel Buddy AI",
-            project7Desc: "AI chatbot that helps users plan trips, find destination recommendations, and get travel information."
-        },
+    title: "My Portfolio",
+    subtitle: "A curated collection of my best work in technology, design, and data science, carefully crafted to create real-world impact.",
+    viewProject: "View Project",
+    tagWebDev: "Web Dev",
+    tagUIUX: "UI/UX",
+    tagBackend: "Backend",
+    tagDataScience: "Data Science",
+    tagML: "Machine Learning",
+
+    project1Title: "Laravel Platform",
+    project1Desc: "An internship registration website for Diskominfo Tegal with a complete dashboard management system.",
+
+    project2Title: "Website Mockup",
+    project2Desc: "A modern and elegant UI/UX design for the Diskominfo Tegal website.",
+
+    project3Title: "SakuBijak",
+    project3Desc: "A personal finance management application for efficiently managing income, expenses, and financial reports. Built with React + Vite on the frontend and Express.js on the backend.",
+
+    project4Title: "Developer Assistant",
+    project4Desc: "An all-in-one developer utility application with 8 essential features, including JSON Formatter, Regex Tester, and QR Generator.",
+
+    project5Title: "Marginalia (NLP)",
+    project5Desc: "A web-based Natural Language Processing application for text analysis, information extraction, and document processing.",
+
+    project6Title: "Kedai Kopi Kenangan Kita",
+    project6Desc: "An elegant and simple website for Kedai Kopi Kenangan Kita.",
+
+    project7Title: "Travel Buddy AI",
+    project7Desc: "An AI chatbot that helps users plan trips, find destination recommendations, and get travel information."
+},
         education: {
             title: "Education",
             card1Degree: "Bachelor of Information Systems (2021 – 2025)",
