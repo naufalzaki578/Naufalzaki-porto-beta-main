@@ -32,7 +32,7 @@ const translations = {
             project2Desc: "Desain UI/UX modern dan elegan untuk Website Diskominfo Kab. Tegal.",
 
             project3Title: "SakuBijak",
-            project3Desc: "Aplikasi mengelola pemasukan, pengeluaran, dan laporan keuangan secara efisien. Dibangun dengan React + Vite pada sisi frontend dan Express.js pada sisi backend.",
+            project3Desc: "Aplikasi pengelola keuangan pribadi.",
 
             project4Title: "Asisten Developer",
             project4Desc: "Aplikasi utilitas all-in-one dengan 8 fitur esensial seperti JSON Formatter, Regex Tester, hingga QR Generator.",
@@ -47,7 +47,7 @@ const translations = {
             project7Desc: "Chatbot AI untuk membantu pengguna merencanakan perjalanan, mencari rekomendasi destinasi, dan mendapatkan informasi wisata.",
 
             project8Title: "AI Credit Scoring System",
-            project8Desc: "Sistem prediksi kelayakan kredit bank berbasis Machine Learning (XGBoost) untuk mendeteksi risiko kredit macet."
+            project8Desc: "Prediksi kelayakan kredit bank berbasis Machine Learning."
         },
         education: {
             title: "Pendidikan",
@@ -158,7 +158,7 @@ const translations = {
             project2Desc: "A modern and elegant UI/UX design for the Diskominfo Tegal website.",
 
             project3Title: "SakuBijak",
-            project3Desc: "A personal finance management application for efficiently managing income, expenses, and financial reports. Built with React + Vite on the frontend and Express.js on the backend.",
+            project3Desc: "A personal finance tracker app.",
 
             project4Title: "Developer Assistant",
             project4Desc: "An all-in-one developer utility application with 8 essential features, including JSON Formatter, Regex Tester, and QR Generator.",
@@ -173,7 +173,7 @@ const translations = {
             project7Desc: "An AI chatbot that helps users plan trips, find destination recommendations, and get travel information.",
 
             project8Title: "AI Credit Scoring System",
-            project8Desc: "A Machine Learning (XGBoost) system that predicts bank loan eligibility and non-performing loan risk."
+            project8Desc: "Bank loan eligibility prediction using Machine Learning."
         },
         education: {
             title: "Education",
@@ -282,7 +282,7 @@ const translations = {
             project2Title: "نموذج موقع الويب",
             project2Desc: "تصميم واجهة مستخدم (UI/UX) حديث وأنيق لموقع Diskominfo Kab. Tegal.",
             project3Title: "تطبيق SakuBijak",
-            project3Desc: "تطبيق لإدارة الدخل والمصروفات والتقارير المالية بكفاءة.",
+            project3Desc: "تطبيق لإدارة المالية الشخصية.",
             project4Title: "مساعد المطور",
             project4Desc: "تطبيق أدوات متعدد الاستخدامات للمطورين يحتوي على 8 ميزات أساسية.",
             project5Title: "تطبيق Marginalia (NLP)",
@@ -292,7 +292,7 @@ const translations = {
             project7Title: "تطبيق Travel Buddy AI",
             project7Desc: "روبوت محادثة ذكي لمساعدة المستخدمين في تخطيط الرحلات والتوصيات السياحية.",
             project8Title: "نظام التقييم الائتماني بالذكاء الاصطناعي",
-            project8Desc: "نظام تنبؤ بالأهلية الائتمانية للبنوك باستخدام تعلم الآلة (XGBoost) لاكتشاف مخاطر القروض المتعثرة."
+            project8Desc: "نظام تنبؤ بالأهلية الائتمانية باستخدام تعلم الآلة."
         },
         education: {
             title: "التعليم",
@@ -400,7 +400,7 @@ const translations = {
             project2Title: "ウェブサイトモックアップ",
             project2Desc: "Diskominfo Kab. Tegal向けのモダンなUI/UXデザイン。",
             project3Title: "SakuBijak",
-            project3Desc: "収支および財務レポートを効率的に管理するアプリ。",
+            project3Desc: "個人向け家計管理アプリ。",
             project4Title: "デベロッパーアシスタント",
             project4Desc: "8つの必須機能を備えたオールインワンの開発者ユーティリティアプリ。",
             project5Title: "Marginalia (NLP)",
@@ -410,7 +410,7 @@ const translations = {
             project7Title: "Travel Buddy AI",
             project7Desc: "旅行計画や観光情報をサポートするAIチャットボット。",
             project8Title: "AI信用スコアリングシステム",
-            project8Desc: "機械学習（XGBoost）を用いた銀行融資の与信予測システム。不良債権リスクを検出。"
+            project8Desc: "機械学習による銀行融資の与信予測システム。"
         },
         education: {
             title: "学歴",
