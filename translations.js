@@ -47,7 +47,7 @@ const translations = {
             project7Desc: "Chatbot AI untuk membantu pengguna merencanakan perjalanan, mencari rekomendasi destinasi, dan mendapatkan informasi wisata.",
 
             project8Title: "AI Credit Scoring System",
-            project8Desc: "Sistem otomasi kelayakan kredit bank berbasis Machine Learning untuk memprediksi risiko kredit macet (NPL) dan menganalisis bias data historis nasabah."
+            project8Desc: "Sistem prediksi kelayakan kredit bank berbasis Machine Learning (XGBoost) untuk mendeteksi risiko kredit macet."
         },
         education: {
             title: "Pendidikan",
@@ -173,7 +173,7 @@ const translations = {
             project7Desc: "An AI chatbot that helps users plan trips, find destination recommendations, and get travel information.",
 
             project8Title: "AI Credit Scoring System",
-            project8Desc: "A Machine Learning (XGBoost) bank credit scoring system to predict non-performing loan risks and analyze historical customer data bias."
+            project8Desc: "A Machine Learning (XGBoost) system that predicts bank loan eligibility and non-performing loan risk."
         },
         education: {
             title: "Education",
@@ -292,7 +292,7 @@ const translations = {
             project7Title: "تطبيق Travel Buddy AI",
             project7Desc: "روبوت محادثة ذكي لمساعدة المستخدمين في تخطيط الرحلات والتوصيات السياحية.",
             project8Title: "نظام التقييم الائتماني بالذكاء الاصطناعي",
-            project8Desc: "نظام أتمتة الجدارة الائتمانية للمصارف قائم على تعلم الآلة (XGBoost) للتنبؤ بمخاطر القروض المتعثرة وتحليل التحيز في البيانات."
+            project8Desc: "نظام تنبؤ بالأهلية الائتمانية للبنوك باستخدام تعلم الآلة (XGBoost) لاكتشاف مخاطر القروض المتعثرة."
         },
         education: {
             title: "التعليم",
@@ -410,7 +410,7 @@ const translations = {
             project7Title: "Travel Buddy AI",
             project7Desc: "旅行計画や観光情報をサポートするAIチャットボット。",
             project8Title: "AI信用スコアリングシステム",
-            project8Desc: "機械学習（XGBoost）を活用して不良債権リスクを予測し、過去の顧客データのバイアスを分析する銀行与信自動化システム。"
+            project8Desc: "機械学習（XGBoost）を用いた銀行融資の与信予測システム。不良債権リスクを検出。"
         },
         education: {
             title: "学歴",
