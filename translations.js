@@ -24,6 +24,10 @@ const translations = {
             tagBackend: "Backend",
             tagDataScience: "Data Science",
             tagML: "Machine Learning",
+            tagFullStack: "Full-Stack",
+
+            project9Title: "Parking Management System",
+            project9Desc: "Aplikasi manajemen parkir full-stack.",
 
             project1Title: "Laravel Platform",
             project1Desc: "Web Pendaftaran Magang Diskominfo Kab. Tegal dengan manajemen dashboard lengkap.",
@@ -39,9 +43,6 @@ const translations = {
 
             project5Title: "Marginalia (NLP)",
             project5Desc: "Aplikasi berbasis web Natural Language Processing untuk melakukan analisis teks, ekstraksi informasi, dan pengolahan dokumen.",
-
-            project6Title: "Kedai Kopi Kenangan Kita",
-            project6Desc: "Website Kedai Kopi Kenangan Kita yang elegan dan sederhana.",
 
             project7Title: "Travel Buddy AI",
             project7Desc: "Chatbot AI untuk membantu pengguna merencanakan perjalanan, mencari rekomendasi destinasi, dan mendapatkan informasi wisata.",
@@ -150,6 +151,10 @@ const translations = {
             tagBackend: "Backend",
             tagDataScience: "Data Science",
             tagML: "Machine Learning",
+            tagFullStack: "Full-Stack",
+
+            project9Title: "Parking Management System",
+            project9Desc: "A full-stack parking management app.",
 
             project1Title: "Laravel Platform",
             project1Desc: "An internship registration website for Diskominfo Tegal with a complete dashboard management system.",
@@ -165,9 +170,6 @@ const translations = {
 
             project5Title: "Marginalia (NLP)",
             project5Desc: "A web-based Natural Language Processing application for text analysis, information extraction, and document processing.",
-
-            project6Title: "Kedai Kopi Kenangan Kita",
-            project6Desc: "An elegant and simple website for Kedai Kopi Kenangan Kita.",
 
             project7Title: "Travel Buddy AI",
             project7Desc: "An AI chatbot that helps users plan trips, find destination recommendations, and get travel information.",
@@ -277,6 +279,11 @@ const translations = {
             tagBackend: "برمجة الخلفية",
             tagDataScience: "علم البيانات",
             tagML: "تعلم الآلة",
+            tagFullStack: "Full-Stack",
+
+            project9Title: "نظام إدارة مواقف السيارات",
+            project9Desc: "تطبيق متكامل لإدارة مواقف السيارات.",
+
             project1Title: "منصة لارافيل",
             project1Desc: "موقع تسجيل التدريب العملي لـ Diskominfo Kab. Tegal مع إدارة كاملة للوحة التحكم.",
             project2Title: "نموذج موقع الويب",
@@ -287,8 +294,6 @@ const translations = {
             project4Desc: "تطبيق أدوات متعدد الاستخدامات للمطورين يحتوي على 8 ميزات أساسية.",
             project5Title: "تطبيق Marginalia (NLP)",
             project5Desc: "تطبيق معالجة اللغة الطبيعية لتحليل النصوص واستخراج المعلومات.",
-            project6Title: "موقع كافيه Kenangan Kita",
-            project6Desc: "موقع أنيق وبسيط لكافيه Kedai Kopi Kenangan Kita.",
             project7Title: "تطبيق Travel Buddy AI",
             project7Desc: "روبوت محادثة ذكي لمساعدة المستخدمين في تخطيط الرحلات والتوصيات السياحية.",
             project8Title: "نظام التقييم الائتماني بالذكاء الاصطناعي",
@@ -395,6 +400,11 @@ const translations = {
             tagBackend: "バックエンド",
             tagDataScience: "データサイエンス",
             tagML: "機械学習",
+            tagFullStack: "フルスタック",
+
+            project9Title: "駐車場管理システム",
+            project9Desc: "フルスタック駐車場管理アプリ。",
+
             project1Title: "Laravelプラットフォーム",
             project1Desc: "Diskominfo Kab. Tegalのインターンシップ登録ウェブサイト。",
             project2Title: "ウェブサイトモックアップ",
@@ -405,8 +415,6 @@ const translations = {
             project4Desc: "8つの必須機能を備えたオールインワンの開発者ユーティリティアプリ。",
             project5Title: "Marginalia (NLP)",
             project5Desc: "テキスト分析および情報抽出のためのWebベースの自然言語処理アプリ。",
-            project6Title: "Kedai Kopi Kenangan Kita",
-            project6Desc: "Kedai Kopi Kenangan KitaのシンプルでエレガントなWebサイト。",
             project7Title: "Travel Buddy AI",
             project7Desc: "旅行計画や観光情報をサポートするAIチャットボット。",
             project8Title: "AI信用スコアリングシステム",
