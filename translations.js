@@ -74,7 +74,7 @@ const translations = {
         experience: {
             title: "Pengalaman Kerja/ Organisasi",
             qaTitle: "Event Organizer",
-            qaCompany: "Freelance - Tournament Software Operator",
+            qaCompany: "Freelance IT & Network Technician - Tournament Karate Kapolres Tegal Cup 2025",
             qaDate: "Jun 2025 - Sekarang",
             qaDesc: "Menangani instalasi perangkat keras dan lunak, troubleshooting komputer, konfigurasi jaringan dasar, serta memberikan dukungan teknis kepada pengguna.",
             webTitle: "Web Developer Intern",
