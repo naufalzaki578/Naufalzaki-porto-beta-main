@@ -142,23 +142,33 @@ export const portfolioData = {
     {
       id: 2,
       title: {
-        id: "Web Pendaftaran Magang Diskominfo Kab. Tegal",
+        id: "Portal Pendaftaran Magang Diskominfo Kab. Tegal",
         en: "Diskominfo Tegal Internship Registration Portal"
       },
       category: "Web Dev",
-      type: { id: "Laravel Web Application", en: "Laravel Web Application" },
+      type: { id: "Full-Stack Web App (Laravel 11 + Tailwind CSS)", en: "Full-Stack Web App (Laravel 11 + Tailwind CSS)" },
       description: {
-        id: "Mengembangkan website pendaftaran magang resmi Diskominfo Kab. Tegal dengan Laravel, menyediakan fitur formulir digital, validasi data, manajemen akun, dashboard admin, dan penyimpanan dokumen berkas.",
-        en: "Official internship registration portal for Diskominfo Tegal built with Laravel, featuring digital application forms, data validation, account management, admin dashboard, and document storage."
+        id: "Aplikasi web resmi pendaftaran magang Diskominfo Kab. Tegal berbasis Laravel 11 & Tailwind CSS. Dilengkapi formulir 4-tahap, pelacakan status mandiri (NIM/Email), panel verifikasi berkas admin, dan arsitektur cloud serverless di Vercel.",
+        en: "Official internship registration portal for Diskominfo Kab. Tegal built with Laravel 11 and Tailwind CSS. Features a 4-step digital application form, real-time self-service status tracking, administrative document review, and serverless Vercel cloud deployment."
       },
       image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80",
-      tags: ["Laravel", "PHP", "MySQL", "Bootstrap", "Blade"],
-      liveUrl: null,
+      tags: ["Laravel 11", "Tailwind CSS", "PHP", "SQLite / MySQL", "Vercel Serverless", "Blade"],
+      liveUrl: "https://diskominfo-tegal-main.vercel.app",
       githubUrl: "https://github.com/naufalzaki578/diskominfo-tegal",
       featured: true,
       highlights: {
-        id: ["Otentikasi multi-level admin & peserta", "Penyimpanan berkas dokumen online", "Sistem status seleksi otomatis"],
-        en: ["Multi-level authentication", "Online document management", "Automated selection status"]
+        id: [
+          "Live di Vercel dengan arsitektur serverless & HTTPS murni",
+          "Cek status mandiri real-time (NIM/Email) tanpa login",
+          "Panel admin verifikasi berkas & download Surat/CV",
+          "100% responsif di smartphone, tablet, dan desktop"
+        ],
+        en: [
+          "Live on Vercel with serverless architecture & strict HTTPS",
+          "Real-time self-service status tracking (NIM/Email)",
+          "Admin document review & applicant decision workflow",
+          "100% responsive across mobile, tablet, and desktop"
+        ]
       }
     },
     {
@@ -336,19 +346,21 @@ export const portfolioData = {
       periodEn: "February 2024 - April 2024",
       type: "Internship",
       description: {
-        id: "Mengembangkan Website pendaftaran magang resmi Diskominfo Kab. Tegal dengan framework Laravel, menyediakan fitur formulir digital, validasi data otomatis, manajemen akun peserta & instansi, dashboard admin, dan penyimpanan dokumen berkas.",
-        en: "Developed official internship registration web platform for Diskominfo Tegal using Laravel, implementing digital application forms, automated data validation, multi-user accounts, admin dashboard, and secure document storage."
+        id: "Mengembangkan portal web pendaftaran magang resmi Diskominfo Kab. Tegal berbasis Laravel 11 dan Tailwind CSS, menyediakan formulir 4-tahap, pelacakan status mandiri real-time, dashboard admin verifikasi berkas, dan deployment cloud serverless di Vercel.",
+        en: "Developed the official internship registration web platform for Diskominfo Kab. Tegal using Laravel 11 and Tailwind CSS, featuring a 4-step digital form, real-time self-service tracking, document review dashboard, and serverless cloud deployment on Vercel."
       },
       achievements: {
         id: [
-          "Mendigitalisasi alur pendaftaran magang dari berkas fisik ke web terpusat",
-          "Membangun dashboard admin lengkap dengan status verifikasi pelamar",
-          "Menerapkan autentikasi aman dan penyimpanan berkas dokumen terenkripsi"
+          "Mendigitalisasi alur pendaftaran magang menjadi portal terpusat yang 100% responsif di semua perangkat",
+          "Membangun fitur cek status mandiri (NIM/Email) secara real-time dengan proteksi keamanan HTTPS murni",
+          "Mengintegrasikan dashboard verifikasi berkas (Surat Pengantar & CV) serta alur persetujuan admin",
+          "Menerapkan arsitektur cloud serverless di Vercel dan basis data SQLite siap pakai"
         ],
         en: [
-          "Digitized manual paper-based internship workflows into a central web portal",
-          "Engineered administrative dashboards with applicant review workflows",
-          "Implemented secure authentication and structured file upload storage"
+          "Digitized internship registration into a central, 100% responsive web portal across all devices",
+          "Engineered real-time self-service status tracking (NIM/Email) with strict HTTPS security enforcement",
+          "Integrated administrative document review (Cover Letter & CV) and decision management workflows",
+          "Architected and deployed serverless cloud application on Vercel with ready-to-use SQLite integration"
         ]
       }
     },
