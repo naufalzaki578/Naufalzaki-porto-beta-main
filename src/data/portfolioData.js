@@ -164,7 +164,7 @@ export const portfolioData = {
       image: "https://images.unsplash.com/photo-1506521781263-d8422e82f27a?auto=format&fit=crop&w=800&q=80",
       tags: ["Full Stack", "React / Next.js", "Node.js", "Tailwind CSS", "Vercel"],
       liveUrl: "https://parking-management-system-wxkq.vercel.app",
-      githubUrl: null,
+      githubUrl: "https://github.com/naufalzaki578/parking-management-system",
       featured: true,
       highlights: {
         id: ["Pelacakan slot real-time", "Dashboard analitik parkir", "Desain antarmuka responsif"],
@@ -240,7 +240,7 @@ export const portfolioData = {
       image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=800&q=80",
       tags: ["Backend", "Node.js", "Express", "Tailwind", "Vercel"],
       liveUrl: "https://saku-bijak-new-main-finance-dashboa.vercel.app/",
-      githubUrl: null,
+      githubUrl: "https://github.com/naufalzaki578/SakuBijak-new-main",
       featured: false,
       highlights: {
         id: ["Visualisasi pengeluaran dinamis", "Pencatatan cashflow terstruktur", "Performa cepat & responsif"],
@@ -262,7 +262,7 @@ export const portfolioData = {
       image: "https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&w=800&q=80",
       tags: ["Web Dev", "JavaScript", "HTML5", "CSS3", "Vercel"],
       liveUrl: "https://luxemarket-frontend.vercel.app/",
-      githubUrl: null,
+      githubUrl: "https://github.com/naufalzaki578/luxemarket-ecommerce",
       featured: false,
       highlights: {
         id: ["Pencarian produk instan", "UI interaktif modern", "Kompatibel mobile dan desktop"],
@@ -306,7 +306,7 @@ export const portfolioData = {
       image: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=800&q=80",
       tags: ["AI", "Generative AI", "React", "Tailwind", "Vercel"],
       liveUrl: "https://travel-buddy-f75wqy1iq-naufal17.vercel.app/",
-      githubUrl: null,
+      githubUrl: "https://github.com/naufalzaki578/travel-buddy-chatbot",
       featured: false,
       highlights: {
         id: ["Rekomendasi rute pintar", "Kustomisasi durasi liburan", "Antarmuka ramah pengguna"],
