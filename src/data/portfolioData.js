@@ -22,7 +22,7 @@ export const portfolioData = {
     location: "Tegal, Jawa Tengah, Indonesia",
     avatar: "/profile.jpg",
     yearsExperience: "2+ Tahun",
-    completedProjects: "8+ Proyek",
+    completedProjects: "9+ Proyek",
     techFocus: "Web & Data Science",
     socials: {
       github: "https://github.com/naufalzaki578",
@@ -120,6 +120,38 @@ export const portfolioData = {
     {
       id: 1,
       title: {
+        id: "AURUM - Ultra-Luxury Dubai Real Estate",
+        en: "AURUM - Ultra-Luxury Dubai Real Estate"
+      },
+      category: "Web Dev",
+      type: { id: "Ultra-Luxury Web App (React 19 + Tailwind)", en: "Ultra-Luxury Web App (React 19 + Tailwind)" },
+      description: {
+        id: "Aplikasi web showcase properti dan residensial ultra-mewah di Dubai dengan standar visual editorial Awwwards-style. Dilengkapi konverter multi-mata uang dinamis (AED/USD/IDR), kartu bertumpuk interaktif (stacking cards), filter kategori, inspeksi spesifikasi teknis unit, dan alur permohonan konsultasi VIP privat.",
+        en: "Ultra-luxury architectural real estate showcase web app in Dubai inspired by Awwwards aesthetic standards. Features real-time multi-currency conversion (AED/USD/IDR), interactive stacking cards, unit inspection modal, and private VIP inquiry workflow."
+      },
+      image: "https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/482e7b6a-168c-4d0d-b35d-0e2ff4014577_3840w.webp",
+      tags: ["React 19", "Vite", "Tailwind CSS", "Multi-Currency", "Vercel"],
+      liveUrl: "https://aurum-react.vercel.app",
+      githubUrl: "https://github.com/naufalzaki578/aurum-dubai-realestate",
+      featured: true,
+      highlights: {
+        id: [
+          "Konversi kurs multi-currency real-time (AED, USD, IDR)",
+          "Animasi kartu portofolio bertumpuk (interactive stacking cards)",
+          "Modal inspeksi spesifikasi teknis unit & galeri multi-sudut",
+          "Alur reservasi viewing privat terintegrasi WhatsApp Concierge"
+        ],
+        en: [
+          "Real-time multi-currency converter (AED, USD, IDR)",
+          "Interactive stacking cards with smooth category filtering",
+          "Comprehensive unit inspection modal & technical specifications",
+          "VIP private viewing inquiry flow with direct WhatsApp concierge"
+        ]
+      }
+    },
+    {
+      id: 2,
+      title: {
         id: "Parking Management System",
         en: "Parking Management System"
       },
@@ -140,7 +172,7 @@ export const portfolioData = {
       }
     },
     {
-      id: 2,
+      id: 3,
       title: {
         id: "Portal Pendaftaran Magang Diskominfo Kab. Tegal",
         en: "Diskominfo Tegal Internship Registration Portal"
@@ -172,7 +204,7 @@ export const portfolioData = {
       }
     },
     {
-      id: 3,
+      id: 4,
       title: {
         id: "Redesain UI/UX Web Kominfo",
         en: "UI/UX Redesign for Kominfo Website"
@@ -194,7 +226,7 @@ export const portfolioData = {
       }
     },
     {
-      id: 4,
+      id: 5,
       title: {
         id: "SakuBijak - Finance Management Dashboard",
         en: "SakuBijak - Finance Management Dashboard"
@@ -216,7 +248,7 @@ export const portfolioData = {
       }
     },
     {
-      id: 5,
+      id: 6,
       title: {
         id: "LuxeMarket E-Commerce Platform",
         en: "LuxeMarket E-Commerce Platform"
@@ -238,7 +270,7 @@ export const portfolioData = {
       }
     },
     {
-      id: 6,
+      id: 7,
       title: {
         id: "Marginalia - NLP Text Analysis & Processor",
         en: "Marginalia - NLP Text Analysis & Processor"
@@ -260,7 +292,7 @@ export const portfolioData = {
       }
     },
     {
-      id: 7,
+      id: 8,
       title: {
         id: "TravelBuddy AI Assistant",
         en: "TravelBuddy AI Assistant"
@@ -282,7 +314,7 @@ export const portfolioData = {
       }
     },
     {
-      id: 8,
+      id: 9,
       title: {
         id: "Machine Learning Loan Credit Scoring Prediction",
         en: "Machine Learning Loan Credit Scoring Prediction"
